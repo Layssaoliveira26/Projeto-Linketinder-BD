@@ -38,24 +38,6 @@ O banco é composto pelas seguintes tabelas:
 
 ---
 
-## Execução
-
-1. Criar o banco:
-
-```sql
-CREATE DATABASE linketinder;
-```
-
-2. Executar o script SQL com as tabelas
-
----
-
-## Testes
-
-Recomenda-se inserir dados fictícios e realizar consultas com `SELECT` e `JOIN` para validar os relacionamentos.
-
----
-
 ## Melhorias Futuras
 
 * Criar tabela de candidaturas (interesse/match)
@@ -64,12 +46,3 @@ Recomenda-se inserir dados fictícios e realizar consultas com `SELECT` e `JOIN`
 
 ---
 
-## Repositório
-
-O projeto inclui:
-
-* Script SQL
-* README
-* DER (modelo do banco)
-
----
