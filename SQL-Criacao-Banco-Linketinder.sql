@@ -11,18 +11,18 @@ CREATE TABLE candidatos (
     senha VARCHAR(255) NOT NULL
 );
 
--- CREATE TABLE competencias (
--- 	id SERIAL PRIMARY KEY,
--- 	nome VARCHAR(100)
--- );
+CREATE TABLE competencias (
+	id SERIAL PRIMARY KEY,
+	nome VARCHAR(100)
+);
 
--- CREATE TABLE competencias_candidatos (
--- 	id_candidato INT,
---     id_competencia INT,
+CREATE TABLE competencias_candidatos (
+	id_candidato INT,
+    id_competencia INT,
 
---     FOREIGN KEY (id_candidato) REFERENCES candidatos(id),
---     FOREIGN KEY (id_competencia) REFERENCES competencias(id)
--- );
+    FOREIGN KEY (id_candidato) REFERENCES candidatos(id),
+    FOREIGN KEY (id_competencia) REFERENCES competencias(id)
+);
 
 -- CREATE TABLE empresas(
 -- 	id SERIAL PRIMARY KEY,
