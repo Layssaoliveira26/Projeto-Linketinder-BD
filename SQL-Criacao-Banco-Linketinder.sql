@@ -24,16 +24,16 @@ CREATE TABLE competencias_candidatos (
     FOREIGN KEY (id_competencia) REFERENCES competencias(id)
 );
 
--- CREATE TABLE empresas(
--- 	id SERIAL PRIMARY KEY,
--- 	nome VARCHAR(200) NOT NULL,
--- 	cnpj VARCHAR(14) NOT NULL,
--- 	email VARCHAR(150) NOT NULL,
--- 	descricao_empresa VARCHAR(1000) NOT NULL,
--- 	pais VARCHAR(50),
--- 	cep VARCHAR(8),
---     senha VARCHAR(255) NOT NULL
--- );
+CREATE TABLE empresas(
+	id SERIAL PRIMARY KEY,
+	nome VARCHAR(200) NOT NULL,
+	cnpj VARCHAR(14) NOT NULL,
+	email VARCHAR(150) NOT NULL,
+	descricao_empresa VARCHAR(1000) NOT NULL,
+	pais VARCHAR(50),
+	cep VARCHAR(8),
+    senha VARCHAR(255) NOT NULL
+);
 
 -- CREATE TABLE vagas(
 -- 	id SERIAL PRIMARY KEY,
