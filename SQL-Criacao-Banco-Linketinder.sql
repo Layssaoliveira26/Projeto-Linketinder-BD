@@ -35,13 +35,13 @@ CREATE TABLE empresas(
     senha VARCHAR(255) NOT NULL
 );
 
--- CREATE TABLE vagas(
--- 	id SERIAL PRIMARY KEY,
--- 	nome VARCHAR(200) NOT NULL,
--- 	descricao VARCHAR(500) NOT NULL,
--- 	competencias VARCHAR(500) NOT NULL,
--- 	local VARCHAR(50) NOT NULL,
--- 	id_empresa INT,
+CREATE TABLE vagas(
+	id SERIAL PRIMARY KEY,
+	nome VARCHAR(200) NOT NULL,
+	descricao VARCHAR(500) NOT NULL,
+	competencias VARCHAR(500) NOT NULL,
+	local VARCHAR(50) NOT NULL,
+	id_empresa INT,
 
--- 	FOREIGN KEY(id_empresa) REFERENCES empresas(id)
--- );
+	FOREIGN KEY(id_empresa) REFERENCES empresas(id)
+);
